@@ -20,7 +20,7 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
+  background-color: #9b9b9b ;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -70,6 +70,8 @@ img {
   width: 450px;
 }
 
+
+
 /* Indeling voor sub pagina */
 
 /* Opmaak voor alle pagina's */
@@ -116,9 +118,16 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #a9fca6;
 }
 
 nav li a.active {
     background-color: skyblue;
+}
+
+#achtergrond {
+  background-image: url("afbeeldingen/weiland.jpg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
