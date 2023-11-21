@@ -20,7 +20,7 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #9b9b9b ;    /* achtergrondkleur lichtgrijs */
+  background-color: transparent ;    /* achtergrondkleur lichtgrijs */
   color: #ffffff;               /* tekstkleur donkergrijs */
 }  
 
@@ -65,6 +65,17 @@ img {
   width:250px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
+.item-plaatje1 {
+  float:left;
+  width:350px;
+  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+}
+
+.item-plaatje2 {
+  float:right;
+  width:350px;
+  padding-left: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+}
 .item-tekst {
   float:right;
   width: 300px;
@@ -91,9 +102,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
 
 /* Opmaak voor sub pagina's */
 
@@ -102,12 +110,12 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #aeaeae;
+    background-color: #aeaeae00;
     overflow: hidden;
 }
 
 nav ul li {
-    float: left;
+    float: auto;
 }
 
 nav li a {
@@ -119,7 +127,8 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #a9fca6;
+    background-color: #90ef8d;
+    color:black;
 }
 
 nav li a.active {
@@ -131,4 +140,37 @@ nav li a.active {
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover; 
+}
+
+#achtergrond1 {
+  background-image: url("afbeeldingen/weiland.jpg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+#achtergrond2 {
+  background-image: url("afbeeldingen/gras.jpg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+#achtergrond3 {
+  background-image: url("afbeeldingen/gras.jpg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+#achtergrond4 {
+  background-image: url("afbeeldingen/gras.jpg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.box {
+  background-color: rgba(0, 0, 0, 0.275);
+  border: solid 10px  rgba(0, 0, 0, 0.275);
 }
