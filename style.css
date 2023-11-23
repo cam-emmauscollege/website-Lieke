@@ -70,13 +70,8 @@ ol {
   width:350px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
-.item-plaatje1 {
-  float:left;
-  width:350px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
-}
 
-.item-plaatje2 {
+.item-plaatje1 {
   float:right;
   width:350px;
   padding-left: 15px; /* zorgt dat plaatje niet tegen tekst komt */
