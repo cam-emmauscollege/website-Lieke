@@ -62,7 +62,7 @@ img {
 
 .item-plaatje {
   float:left;
-  width:250px;
+  width:350px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 .item-plaatje1 {
@@ -136,7 +136,7 @@ nav li a.active {
 }
 
 #achtergrond {
-  background-image: url("afbeeldingen/weiland.jpg");
+  background-image: url("afbeeldingen/koe2.jpg");
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -171,6 +171,19 @@ nav li a.active {
 }
 
 .box {
-  background-color: rgba(0, 0, 0, 0.275);
-  border: solid 10px  rgba(0, 0, 0, 0.275);
+  background-color: rgba(255, 251, 251, 0.250);
+  height: 1200px;
+  width: 700px;
+  padding: 10px 10px;
+  margin: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
 }
