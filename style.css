@@ -49,11 +49,16 @@ h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
 
 p {
   margin: 10px 0px;
-  text-align: justify;            /* tekst links en rechts uitvullen */
+  text-align: justify;  /* tekst links en rechts uitvullen */
+  color: black;
 }
 
 img {
   margin: 10px 0px;
+}
+
+ol {
+  color:black;
 }
 
 /* Indeling voor hoofd pagina */
@@ -89,7 +94,7 @@ img {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: rgb(255, 255, 255);
+      color: white;
 }
 
 .smalltext {
@@ -120,7 +125,7 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -171,7 +176,7 @@ nav li a.active {
 }
 
 .box {
-  background-color: rgba(255, 251, 251, 0.250);
+  background-color: rgba(255, 251, 251, 0.500);
   height: 1200px;
   width: 700px;
   padding: 10px 10px;
@@ -181,6 +186,7 @@ nav li a.active {
 table {
   border-collapse: collapse;
   width: 100%;
+  color: black;
 }
 th, td {
   border: 1px solid black;
