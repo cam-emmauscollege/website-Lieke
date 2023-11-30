@@ -88,6 +88,22 @@ ol {
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 
+.item-plaatje4 {
+  float: left;
+  width: 250px;
+  padding-right: 15px;
+  display: flex; 
+  align-items: center; 
+}
+
+.item-plaatje5 {
+  float: right;
+  width: 250px;
+  padding-left: 15px;
+  display: flex; 
+  align-items: center; 
+}
+
 .item-tekst {
   float:right;
   width: 300px;
