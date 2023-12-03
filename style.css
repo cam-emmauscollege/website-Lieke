@@ -21,7 +21,7 @@
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
   background-color: transparent ;    /* achtergrondkleur lichtgrijs */
-  color: #ffffff;               /* tekstkleur donkergrijs */
+  color: #000000;               /* tekstkleur donkergrijs */
 }  
 
 div {                             /* geldt voor div */
@@ -50,7 +50,6 @@ h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
 p {
   margin: 10px 0px;
   text-align: justify;  /* tekst links en rechts uitvullen */
-  color: black;
 }
 
 img {
@@ -69,37 +68,54 @@ ol {
   float:left;
   width:350px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  display: flex;
+  align-items: center; 
 }
 
 .item-plaatje1 {
   float:right;
   width:350px;
   padding-left: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  display: flex;
+  align-items: center; 
 }
+
 .item-plaatje2 {
   float:right;
   width:275px;
   padding-left: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  display: flex;
+  align-items: center; 
 }
 
 .item-plaatje3 {
   float:left;
-  width: 700px;;
+  width: 700px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  display: flex;
+  align-items: center; 
 }
 
 .item-plaatje4 {
   float: left;
   width: 250px;
-  padding-right: 15px;
+  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
   display: flex; 
   align-items: center; 
 }
 
 .item-plaatje5 {
   float: right;
-  width: 250px;
-  padding-left: 15px;
+  width: 300px;
+  padding-left: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  display: flex; 
+  align-items: center; 
+}
+
+.item-plaatje6 {
+  float:left;
+  width: 200px;
+  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
   display: flex; 
   align-items: center; 
 }
@@ -107,10 +123,8 @@ ol {
 .item-tekst {
   float:right;
   width: 300px;
-  color:white;
+  color:rgb(0, 0, 0);
 }
-
-
 
 /* Indeling voor sub pagina */
 
@@ -193,6 +207,7 @@ nav li a.active {
 
 #achtergrond4 {
   background-image: url("afbeeldingen/gras.jpg");
+
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -215,4 +230,9 @@ th, td {
   border: 1px solid black;
   padding: 8px;
   text-align: left;
+}
+
+.img1 {
+  max-width: 100%;
+  height: auto;
 }
