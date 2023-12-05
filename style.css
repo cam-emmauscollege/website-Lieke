@@ -215,7 +215,23 @@ nav li a.active {
 
 .box {
   background-color: rgba(255, 251, 251, 0.500);
-  height: 1200px;
+  height: 1000px;
+  width: 700px;
+  padding: 10px 10px;
+  margin: 0px;
+}
+
+.box1 {
+  background-color: rgba(255, 251, 251, 0.500);
+  height: 1300px;
+  width: 700px;
+  padding: 10px 10px;
+  margin: 0px;
+}
+
+.box2 {
+  background-color: rgba(255, 251, 251, 0.500);
+  height: 2000px;
   width: 700px;
   padding: 10px 10px;
   margin: 0px;
